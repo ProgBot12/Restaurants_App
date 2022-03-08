@@ -16,6 +16,13 @@ router.get("/get/:id", async (req, res) => {
   res.json(r);
 });
 
+//Get specific number of restaurants
+router.get("/:number", async (req, res) => {
+  const r = await Restaurant.find().limit(req.params.number);
+
+  res.json(r);
+});
+
 //Add new restaurant
 router.post("/add", async (req, res) => {
   const newRestaurant = new Restaurant({
