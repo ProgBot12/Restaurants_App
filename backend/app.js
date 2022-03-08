@@ -27,4 +27,7 @@ const RestaurantsRoute = require("./routes/Restaurants.js");
 app.use("/restaurants", RestaurantsRoute);
 
 //Starting server
-app.listen(5000, () => console.log("Listening on port 5000"));
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.warn(`App listening on http://localhost:${PORT}`);
+});
