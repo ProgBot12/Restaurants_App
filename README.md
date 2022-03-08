@@ -5,7 +5,8 @@ RESTFUL Api backend
 Instructions:
 
 Clone the repository to your local machine, and open with VS Code.
-Once opened, in the command line run `npm start`
+Once opened, in the command line run
+`npm start`
 
 Open Postman and run the following commands to test the API:
 
