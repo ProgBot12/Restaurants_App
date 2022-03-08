@@ -5,6 +5,7 @@ RESTFUL Api backend
 Instructions:
 
 Clone the repository to your local machine, and open with VS Code.
+Change the directory to backend with `cd backend`
 Once opened, in the command line run
 `npm start`
 
